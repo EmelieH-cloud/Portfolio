@@ -16,9 +16,9 @@ function MyNav() {
         <Navbar.Toggle aria-controls="basic-navbar-nav navbar-toggler" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mx-auto navlinks">
-            <Nav.Link as={Link} to="/about" className='navlinks'>[ om mig ]</Nav.Link>
-  <Nav.Link as={Link} to="/" className='navlinks'>[ bakgrund ]</Nav.Link>
-    <Nav.Link as={Link} to="/" className='navlinks'>[ utbildning ]</Nav.Link>
+            <Nav.Link as={Link} to="/about" className='navlinks'>Om mig</Nav.Link>
+  <Nav.Link as={Link} to="/work" className='navlinks'>Arbetsliv</Nav.Link>
+    <Nav.Link as={Link} to="/" className='navlinks'>Utbildning</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

@@ -1,0 +1,43 @@
+
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.work-descriptions-container {
+   
+}
+
+.work-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+ 
+}
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.job-entry {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.job-entry h3 {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.job-entry p {
+  font-size: 1em;
+  color: #555;
+}
+
+.job-entry strong {
+  font-weight: bold;
+}
