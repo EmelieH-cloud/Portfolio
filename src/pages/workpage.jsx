@@ -1,6 +1,6 @@
 import React from 'react'
 import MyNav from '../components/MyNav'
-import Work from '../components/work'
+import Work from '../components/Work'
 
 const workpage = () => {
   return (
