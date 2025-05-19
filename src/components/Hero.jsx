@@ -1,6 +1,5 @@
 import React from 'react'
 import '../styles/herostyle.css'
-import Profilbild from '../assets/profil.jpg'
 
 
 const Hero = () => {
@@ -13,7 +12,6 @@ const Hero = () => {
             </div>  
       </div>
      
-        <img src={Profilbild} alt="profilbild" className='profilbild'/>
     </div>
   )
 }

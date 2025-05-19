@@ -24,9 +24,9 @@ body {
     content: "";
     left: -15%;
     top: -16%;
-        width: 800px;
-        height: 600px;
-        background: linear-gradient(135deg, #1e7185 0%, #4b96ab 50%, #fafff0 100%);
+        width: 850px;
+        height: 700px;
+        background: linear-gradient(135deg, #1e7185 0%, #4b96ab 50%, #fdfff0 100%);
 
     border-radius: 62% 47% 82% 35% / 45% 45% 80% 66%;
     will-change: border-radius, transform, opacity;
@@ -87,27 +87,10 @@ body {
    
 }
 
-.profilbild {
-    width: 310px;
-    margin-top: 3%;
-    position: absolute;
-    left: 10%;
-     top: 1%;
-     border-radius: 60%;
-
-}
-
 
 @media (max-width: 768px) {
   
-    .profilbild {
-        position: relative;
-        left: auto;
-        top: auto;
-        width: 60%;
-        margin: 2rem auto 1rem auto;
-        display: block;
-    }
+   
 
     .hero-header {
         font-size: 4rem;

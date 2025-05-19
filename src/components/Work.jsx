@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import '../styles/workstyle.css';
+import Profilbild from '../assets/profil.jpg'
+
 
 function Work() {
   const [openIndex, setOpenIndex] = useState(null);
@@ -67,18 +69,28 @@ function Work() {
   ];
 
   return (
+  <>
+   
     <div className="work-container">
+<img src={Profilbild} alt="profilbild" className='profilbild'/>
       <div className="columns-wrapper">
+        
+    
       <div className="left-column">
+       
     <h1>Systemutvecklare med bakgrund inom ekonomi</h1>
+
+
     <p>
+       
+  
     Min resa som systemutvecklare började med en kandidatexamen i informatik vid Lunds universitet, där jag byggde en stark 
      grund inom systemvetenskap och ekonomi.
   <br /><br />
   Efter examen började jag arbeta på PwC som revisionsadministratör, ett stimulerande jobb med många olika kontaktytor och stort eget ansvar.
-   I rollen fungerade jag som en viktig länk mellan revisorer, team och kund, där jag bland annat ansvarade för att granska och inhämta underlag
-    från banker, i syfte att säkerställa att dessa var korrekta och lättillgängliga i de interna systemen. Genom denna roll växte mitt intresse för
-     hur digitala arbetsflöden kan effektivisera affärsprocesser som kräver hög precision.
+   I rollen fungerade jag som en viktig länk mellan revisorer, team och kund, där jag ansvarade för att granska och inhämta underlag
+    från banker för att säkerställa att dessa var korrekta och lättillgängliga i de interna systemen. I denna roll växte mitt intresse för
+     hur digitala verktyg kan effektivisera affärsprocesser som kräver hög precision.
   <br /><br />
   För att bredda min kompetens inom ekonomi arbetade jag därefter som ekonomiassistent på Fitness24Seven och Bygghemma.
    I dessa roller fick jag arbeta med det löpande arbetet på ekonomiavdelningar vilket gav mig god förståelse för bokföring och andra dagliga processer
@@ -86,14 +98,15 @@ function Work() {
   <br /><br />
   Innan jag slutligen valde en YH-utbildning till systemutvecklade hade jag en roll som IT-projektassistent, där jag arbetade
   nära IT-projektledare för att stötta i den ekonomiska uppföljningen och administrationen. 
-  Det var här jag förstod att det fanns en djup vilja hos mig att vara med och skapa system - inte bara använda dem. Därför beslutade jag mig 
+  Det var här jag förstod att det fanns en djup vilja hos mig att vara med och skapa system, inte bara använda dem. Därför beslutade jag mig 
   för att hitta tillbaka till och fokusera på systemutveckling som karriär. Jag började programmera egna projekt
-    på fritiden samtidigt som jag sökte rätt utbildning för att satsa på det jag verkligen brinner för. 
+    på fritiden samtidigt som jag letade efter rätt utbildning för att satsa på det jag verkligen brinner för! 
  
     </p>
   </div>
 
         <div className="right-column">
+       
           {jobs.map((job, index) => (
             <div
               className={`job-entry ${openIndex === index ? 'open' : ''}`}
@@ -121,7 +134,9 @@ function Work() {
           ))}
         </div>
       </div>
+      
     </div>
+    </>
   );
 }
 
