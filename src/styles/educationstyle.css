@@ -1,0 +1,87 @@
+/* Layout */
+.education-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+
+/* Kolumnutseende */
+.education-column {
+  flex: 1 1 400px;
+  max-width: 600px;
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.06);
+  text-align: left;
+  transition: transform 0.2s ease;
+}
+
+.education-column:hover {
+  transform: translateY(-4px);
+}
+
+/* Rubriker */
+.title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: #222;
+  border-bottom: 2px solid #007acc;
+  padding-bottom: 0.5rem;
+}
+
+.course-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #007acc;
+}
+
+/* Tabell-styling */
+.course-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 0.5rem;
+}
+
+.course-table tr:not(:last-child) {
+  border-bottom: 1px solid #ddd;
+}
+
+.course-name {
+  padding: 0.4rem 0.5rem;
+  text-align: left;
+  vertical-align: top;
+  width: 85%;
+  color: #444;
+  font-size: 1rem;
+}
+
+.course-points {
+  padding: 0.4rem 0.5rem;
+  text-align: right;
+  vertical-align: top;
+  width: 15%;
+  font-weight: 600;
+  color: #007acc;
+  white-space: nowrap;
+}
+
+/* Responsivitet */
+@media (max-width: 768px) {
+  .education-wrapper {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .education-column {
+    width: 100%;
+    max-width: 100%;
+    padding: 1.5rem;
+  }
+}

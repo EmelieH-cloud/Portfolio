@@ -1,9 +1,8 @@
 .work-container {
 font-family: 'Josefin Sans', sans-serif;
-max-width: 1400px;
+max-width: 1200px;
 margin: 0 auto;
-padding-top: 7%;
-padding-bottom: 5%;
+padding-top: 6%;
 background-color: #fdfdfd;
 }
 
@@ -117,7 +116,7 @@ flex-wrap: wrap;
 .left-column,
 .right-column {
 flex: 1;
-min-width: 340px;
+min-width: 300px;
 }
 .left-column {
 max-width: 600px;

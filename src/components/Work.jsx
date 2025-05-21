@@ -31,15 +31,15 @@ function Work() {
        av en AI-applikation som genererar bilder och videor utifrån textpromptar. Projektet byggdes från grunden av oss som var delaktiga i det,
         en grupp praktikanter från olika YH-utbildningar. Upplägget innebar att vi gemensamt utformade databasen, strukturerade 
         kodbasen och implementerade funktionaliteten. Arbetet bedrevs enligt agila principer som vi 
-         själva införde och vi turades om att ta rollen som scrum master. Det gav nyttig erfarenhet av 
+         själva implementerade och vi turades om rollen som scrum master. Det gav nyttig erfarenhet av 
          agila arbetssätt, tekniskt samarbete och hur man organiserar ett projekt från idé till fungerande applikation.`,
       skills: ['.NET', 'C#', 'ASP.NET', 'Azure', 'REST API', 'Databasdesign', 'Entity Framework', 'Next.js', 'GIT',  'Docker','Agila arbetsmetoder']
     },
     {
       title: 'Delägare – Andersson & Hensfelt Handelsbolag',
       place: 'Lund, sep 2024 – nu',
-      preview: 'Jag och min kursare Alinia Andersson tog ett stort kliv som blivande systemutvecklare när vi startade ett eget företag för...',
-      full: `Jag och min kursare Alinia Andersson tog ett stort kliv som blivande systemutvecklare när vi startade ett eget företag för apputveckling. 
+      preview: 'Jag och min kursare Alinia Andersson tog ett stort kliv som blivande vecklare när vi startade ett eget företag för...',
+      full: `Jag och min kursare Alinia Andersson tog ett stort kliv som blivande utvecklare när vi startade ett eget företag för vår apputveckling. 
       Företaget grundades i samband med att vi lanserade vår första app 'One More Date?' i oktober 2024, tillgänglig på både Google Play och App Store.
 Genom att driva hela processen från idé till färdig produkt har vi fått erfarenhet av produktutveckling, publicering av mobilapplikationer
 och plattformsspecifik kod för Android och iOS.
@@ -75,16 +75,16 @@ Utöver det tekniska har projektet lärt oss mycket om kodsamarbete och vad det 
     {
       title: 'Ekonomiassistent, interim – Fitness24Seven',
       place: 'Lund, sep 2021 – dec 2021',
-      preview: 'Tidsbegränsad redovisningsroll under övergångsperiod då företaget rekryterade en erfaren redovisningsansvarig...',
-      full: `En tidsbegränsad anställning som ekonomiassistent under en övergångsperiod då företaget rekryterade en erfaren redovisningsansvarig. 
-      Trots att rollen var kortvarig tackade jag ja till möjligheten att få insyn i redovisningsprocesser och lära mig bokföring
+      preview: 'Tidsbegränsad anställning under övergångsperiod då företaget rekryterade en erfaren redovisningsansvarig...',
+      full: `En tidsbegränsad anställning under en övergångsperiod då företaget rekryterade en erfaren redovisningsansvarig. 
+      Trots att rollen var kortvarig tackade jag ja för att få insyn i redovisningsprocesser och lära mig bokföring
        i praktiken. Denna erfarenhet lade grunden för min fortsatta utveckling inom ekonomi och gav mig förutsättningar att arbeta vidare som ekonomiassistent.`,
       skills: ['Redovisning', 'Ekonomi', 'Affärssystem', 'Excel']
     },
     {
       title: 'Revisionsadministratör – PwC',
       place: 'Lund, jun 2020 – jun 2021',
-      preview: 'Länk mellan revisorer och kund, ansvar för dokumentation...',
+      preview: 'Efter examen arbetade jag på PwC som revisionsadministratör, en roll med stort eget ansvar...',
       full: `Efter examen arbetade jag på PwC som revisionsadministratör, en roll med stort eget ansvar och många kontaktytor, 
       där jag fungerade som en viktig länk mellan revisorer, interna team och kunder. Mitt huvudsakliga ansvar var att
        inhämta, granska och kvalitetssäkra underlag från banker, för att säkerställa att dessa var
