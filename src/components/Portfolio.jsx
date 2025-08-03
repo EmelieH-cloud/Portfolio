@@ -69,7 +69,7 @@ Applikationen implementerar:
   },
   {
     title: 'GreenThumb – Databasutveckling i WPF (.NET)',
-    tech: 'C#, .NET 6, Entity Framework, SQL, WPF, MVVM',
+    tech: 'C#, .NET, Entity Framework, SQL, WPF, MVVM',
     image: GreenThumb,
     github: 'https://github.com/EmelieH-cloud/GreenThumbProject',
     description: `
@@ -88,7 +88,7 @@ Applikationen implementerar:
   },
   {
     title: 'TravelPal – Reseapp i WPF (.NET)',
-    tech: 'C#, .NET 6, WPF, MVVM, OOP, GitHub',
+    tech: 'C#, .NET, WPF, MVVM, OOP, GitHub',
     image: TravelPal,
     github: 'https://github.com/EmelieH-cloud/TravelPal-Newton',
     description: `
