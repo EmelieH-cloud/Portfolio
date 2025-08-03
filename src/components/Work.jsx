@@ -13,14 +13,14 @@ function Work() {
     {
       title: 'Sveriges Radio - Praktik',
       place: 'Malmö, mars 2025 – maj 2025',
-      preview: `Under min praktik på Sveriges Radio har jag både deltagit i det dagliga sprintarbetet och haft ansvar 
-      för ett eget kodprojekt i syfte att kartlägga användarbeteende i appen...`,
-      full: `Under min praktik på Sveriges Radio har jag både deltagit i det dagliga sprintarbetet och haft ansvar 
-      för ett eget kodprojekt i syfte att kartlägga slutanvändarnas beteenden i appen. Jag har arbetat med hela kedjan från att
-      implementera loggning i koden till att strukturera och analysera datan i ett externt ramverk. Utmaningen för mig
-      har varit att identifiera användbar information, implementera loggningsfunktionalitet som fångar in denna och använda loggarna för att skapa tydliga visualiseringar.  
+      preview: `Under min praktik på Sveriges Radio har jag både deltagit i det dagliga sprintarbetet och implementerat 
+      ett eget kodprojekt som kartlägger användarbeteenden i appen...`,
+      full: `Under min praktik på Sveriges Radio har jag både deltagit i det dagliga sprintarbetet och implementerat
+      ett eget kodprojekt som kartlägger användarbeteenden i appen. Jag har arbetat med hela kedjan från
+      loggning i koden till att strukturera och analysera loggdatan i ett externt ramverk. Utmaningen har varit att identifiera
+       användbar information, implementera loggningsfunktionalitet och använda loggarna för att skapa visualiseringar.  
       Projektet har redan bidragit med beslutsunderlag som teamet har nytta av och 
-      kommer vidareutvecklas för att generera fler insikter.`,
+      kommer vidareutvecklas för att generera mer information.`,
       skills: ['Grafana Faro', 'Datavisualisering', 'Real User Monitoring', '.NET', 'GIT', 'Docker', 'Kubernetes', 'Loggning', 'Electron', 'Vue.js', 'Agila arbetsmetoder']
     },
     {
@@ -28,18 +28,17 @@ function Work() {
       place: 'Malmö, sep 2024 – dec 2024',
       preview: 'Under min praktik på Omegapoint arbetade jag med både backend (.NET) och frontend (Next.js) i utvecklingen...',
       full: `Under min praktik på Omegapoint arbetade jag med både backend (.NET) och frontend (Next.js) i utvecklingen
-       av en AI-applikation som genererar bilder och videor utifrån textpromptar. Projektet byggdes från grunden av oss som var delaktiga i det,
-        en grupp praktikanter från olika YH-utbildningar. Upplägget innebar att vi gemensamt utformade databasen, strukturerade 
-        kodbasen och implementerade funktionaliteten. Arbetet bedrevs enligt agila principer som vi 
-         själva implementerade och vi turades om rollen som scrum master. Det gav nyttig erfarenhet av 
+       av en AI-applikation som genererar bilder, video och ljud utifrån textpromptar. Projektet byggdes från grunden tillsammans med 
+        praktikanter från andra YH-utbildningar. Upplägget innebar att vi gemensamt utformade databasen, API:er och frontend-applikationen.
+         Arbetet bedrevs enligt agila principer och vi turades om rollen som scrum master. Det gav nyttig erfarenhet av 
          agila arbetssätt, tekniskt samarbete och hur man organiserar ett projekt från idé till fungerande applikation.`,
-      skills: ['.NET', 'C#', 'ASP.NET', 'Azure', 'REST API', 'Databasdesign', 'Entity Framework', 'Next.js', 'GIT',  'Docker','Agila arbetsmetoder']
+      skills: ['.NET', 'C#', 'ASP.NET Web API', 'Azure', 'REST API', 'Databasdesign', 'Entity Framework', 'Next.js', 'GIT',  'Docker','Agila arbetsmetoder']
     },
     {
       title: 'Delägare – Andersson & Hensfelt Handelsbolag',
       place: 'Lund, sep 2024 – nu',
-      preview: 'Jag och min kursare Alinia Andersson tog ett stort kliv som blivande vecklare när vi startade ett eget företag för...',
-      full: `Jag och min kursare Alinia Andersson tog ett stort kliv som blivande utvecklare när vi startade ett eget företag för vår apputveckling. 
+      preview: 'Jag och min kursare Alinia Andersson tog ett stort kliv som uvecklare när vi startade ett eget företag för...',
+      full: `Jag och min kursare Alinia Andersson tog ett stort kliv som utvecklare när vi startade ett eget företag för vår apputveckling. 
       Företaget grundades i samband med att vi lanserade vår första app 'One More Date?' i oktober 2024, tillgänglig på både Google Play och App Store.
 Genom att driva hela processen från idé till färdig produkt har vi fått erfarenhet av produktutveckling, publicering av mobilapplikationer
 och plattformsspecifik kod för Android och iOS.
