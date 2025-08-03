@@ -33,7 +33,7 @@ Applikationen implementerar:
 
 • Distribuerad till App Store och Google Play med korrekt signering, metadata och produktkonfiguration. 
 
-    `
+    
   },
   {
     title: 'Otilia – Social App (Examensarbete)',
