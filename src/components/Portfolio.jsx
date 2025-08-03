@@ -26,21 +26,17 @@ Utvecklad i Blazor MAUI med fokus på enkelhet, tydlig struktur och plattformsob
 Applikationen implementerar:
 
 • In-App Purchases (Android & iOS) för att möjliggöra köp inuti appen. 
-
 • Skalbar, modulär och testbar kod genom tydlig separering av affärslogik, datamodell och gränssnitt. 
-
 • Användargränssnitt byggt i XAML med animationer och responsiv design för både mobil och surfplatta.
-
 • Distribuerad till App Store och Google Play med korrekt signering, metadata och produktkonfiguration. 
-
-    
+    `
   },
   {
     title: 'Otilia – Social App (Examensarbete)',
     tech: 'React Native, Expo, Supabase, Webhooks, Remote Procedure Calls, Firebase, Push-notifications, Camera-integration, Figma',
     image: Otilia,
     github: 'Privat',
-  description: `
+    description: `
 Otilia är en mobil applikation utvecklad med React Native och Expo. Applikationen är inspirerad av befintliga vänskapsappar som GoFriendly och fokuserar på funktioner som hjälper användarna hitta vänner i närområdet.
 
 Applikationen implementerar:
@@ -51,9 +47,8 @@ Applikationen implementerar:
 • Push-notiser via Expo push-notifications, hanterade med webhooks och Edge Functions för effektiv notifiering.
 • Kameraintegration med expo-camera och expo-image-picker för profilbilder.
 • UI- och användarflödesdesign utvecklad i Figma med fokus på enkelhet och funktionalitet.
-`
-},
-
+    `
+  },
   {
     title: 'Bundrop – Webbapplikation med React',
     tech: 'React, JSON-server, Figma',
@@ -73,11 +68,11 @@ Applikationen implementerar:
     `
   },
   {
-  title: 'GreenThumb – Databasutveckling i WPF (.NET)',
-  tech: 'C#, .NET 6, Entity Framework, SQL, WPF, MVVM',
-  image: GreenThumb,
-  github: 'https://github.com/EmelieH-cloud/GreenThumbProject',
-  description: `
+    title: 'GreenThumb – Databasutveckling i WPF (.NET)',
+    tech: 'C#, .NET 6, Entity Framework, SQL, WPF, MVVM',
+    image: GreenThumb,
+    github: 'https://github.com/EmelieH-cloud/GreenThumbProject',
+    description: `
 GreenThumb är en desktopapplikation utvecklad i WPF där användare kan registrera sig, logga in och hantera trädgårdsplantor via en integrerad databas. Det finns även möjlighet att logga in som administratör med fler databasrättigheter. 
 
 Applikationen implementerar:
@@ -89,11 +84,8 @@ Applikationen implementerar:
 • Användarroller: särskiljning mellan vanliga användare och administratörer.
 • Datavalidering och säker hantering av användarinformation.
 • Responsivt GUI byggt i XAML.
-
-
-`
-},
-
+    `
+  },
   {
     title: 'TravelPal – Reseapp i WPF (.NET)',
     tech: 'C#, .NET 6, WPF, MVVM, OOP, GitHub',
@@ -196,7 +188,6 @@ const Portfolio = () => {
             <h1 className="portfolio-title">{project.title}</h1>
 
             <div className="portfolio-tech">
-        
               <div className="tech-tags">
                 {project.tech.split(',').map((tag, i) => (
                   <span key={i} className="tech-tag">#{tag.trim()}</span>
