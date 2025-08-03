@@ -9,4 +9,6 @@ body {
 
 }
 
-
+.navbar-white-bg {
+  background-color: #fff !important;
+}

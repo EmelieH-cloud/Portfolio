@@ -1,0 +1,225 @@
+/* Wrapper som centrerar hela innehållet */
+body {
+
+    margin: 0;
+    /* se till att inget margin stör */
+    padding: 0;
+}
+
+
+.tech-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.tech-tag {
+    background-color: #e0f0ff;
+    color: #007acc;
+    padding: 0.3rem 0.7rem;
+    border-radius: 15px;
+    font-size: 0.85rem;
+    user-select: none;
+}
+
+.portfolio-wrapper {
+    display: flex;
+    justify-content: center;
+    /* centrera inner-wrapper */
+    padding: 2rem;
+  
+    max-width: 1400px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+/* Inner-wrapper med kort som är vänsterjusterade */
+.portfolio-inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    /* vänsterjustera kort */
+    gap: 2rem;
+    max-width: 1200px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Kort */
+.portfolio-project {
+    flex: 0 1 calc(50% - 2rem);
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.06);
+    text-align: left;
+    transition: transform 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    max-width: 600px;
+    min-height: 850px;
+    /* säkerställer samma höjd */
+}
+
+.portfolio-project:hover {
+    transform: translateY(-4px);
+}
+
+/* Bild */
+.portfolio-image {
+    width: 100%;
+    height: 240px;
+    object-fit: contain;
+    /* ändrat från cover till contain */
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    background-color: #e6e6e6;
+}
+
+/* Rubrik */
+.portfolio-title {
+    font-size: 1.6rem;
+    font-weight:700;
+    margin-bottom: 0.5rem;
+    color: #222;
+    border-bottom: 2px solid #222;
+    padding-bottom: 0.4rem;
+}
+
+/* Teknikstack */
+.portfolio-tech {
+    font-weight: 600;
+    font-style: italic;
+    font-size: 1rem;
+    color: #444;
+    margin: 0.5rem 0 1rem;
+}
+
+/* Beskrivning */
+.portfolio-description {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+    flex-grow: 1;
+}
+
+.portfolio-description p {
+    margin-bottom: 0.8rem;
+}
+
+/* Lista */
+.portfolio-description ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 1rem 0;
+}
+
+.portfolio-description li {
+    position: relative;
+    padding-left: 1.4rem;
+    margin-bottom: 0.6rem;
+    color: #444;
+    font-weight: 500;
+}
+
+.portfolio-description li::before {
+    content: '';
+    position: absolute;
+    top: 0.6em;
+    left: 0;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: #007acc;
+    border-radius: 50%;
+}
+
+/* GitHub-länk och Privat-länk - gemensam stil */
+.portfolio-link,
+.portfolio-private {
+    display: inline-flex;
+    align-items: center;
+    /* Vertikal centrering */
+    justify-content: center;
+    /* Horisontell centrering */
+    gap: 10px;
+    /* Avstånd mellan ikon och text */
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    white-space: nowrap;
+
+    width: 140px;
+    /* Mindre bredd */
+    box-sizing: border-box;
+    /* Säkerställ att padding räknas in i bredd */
+}
+
+/* GitHub knapp bakgrund */
+.portfolio-link {
+    background-color: #007acc;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.portfolio-link:hover {
+    background-color: #005a99;
+}
+
+/* Privatknapp bakgrund och disabled */
+.portfolio-private {
+    background-color: #999;
+    cursor: not-allowed;
+    /* Visa att den är disabled */
+    opacity: 0.7;
+    /* Blekare */
+    pointer-events: none;
+    /* Inaktiv */
+}
+
+/* Ikonstil */
+.portfolio-link svg,
+.portfolio-private svg {
+    display: block;
+    height: 1.4em;
+    width: auto;
+}
+
+/* Responsivitet */
+@media (max-width: 960px) {
+    .portfolio-project {
+        flex: 1 1 100%;
+        max-width: 100%;
+        min-height: auto;
+    }
+
+    .portfolio-image {
+        height: 200px;
+    }
+
+    .portfolio-title {
+        font-size: 1.4rem;
+    }
+
+    .portfolio-tech {
+        font-size: 0.95rem;
+    }
+
+    .portfolio-description {
+        font-size: 0.95rem;
+    }
+
+    .portfolio-link,
+    .portfolio-private {
+        font-size: 0.9rem;
+        padding: 0.5rem 1rem;
+        width: 120px;
+        /* mindre knappar på små skärmar */
+    }
+}

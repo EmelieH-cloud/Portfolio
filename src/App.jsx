@@ -3,6 +3,7 @@ import Homepage from './pages/homepage';
 import Workpage from './pages/workpage';
 import Contactpage from './pages/contactpage';
 import Educationpage from './pages/educationpage';
+import Portfoliopage from './pages/portfoliopage';
 
 function App() {
  
@@ -14,6 +15,7 @@ function App() {
         <Route path="/work" element={<Workpage />} />
         <Route path="/contact" element={<Contactpage />} />
         <Route path="/education" element={<Educationpage />} />
+        <Route path="/portfolio" element={<Portfoliopage/>}/>
       </Routes>
     </>
   )

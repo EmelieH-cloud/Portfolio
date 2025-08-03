@@ -4,7 +4,6 @@ import '../styles/contactstyle.css';
 const Contact = () => {
   return (
     <div className="contact-wrapper">
-      <h1>Kontakta mig</h1>
       <div className="contact-info">
         <div className="contact-item phone">
           <h3>Telefon</h3>
