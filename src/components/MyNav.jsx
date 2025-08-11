@@ -24,7 +24,7 @@ function MyNav() {
   <Nav.Link as={Link} to="/work" className='navlinks'>CV</Nav.Link>
     <Nav.Link as={Link} to="/education" className='navlinks'>Utbildning</Nav.Link>
    
-        <Nav.Link as={Link} to="/portfolio" className='navlinks'>Portfolio</Nav.Link>
+        <Nav.Link as={Link} to="/portfolio" className='navlinks'>Egna projekt</Nav.Link>
        
           </Nav>
         </Navbar.Collapse>

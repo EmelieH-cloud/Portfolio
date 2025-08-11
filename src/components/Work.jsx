@@ -37,8 +37,8 @@ function Work() {
     {
       title: 'Delägare – Andersson & Hensfelt Handelsbolag',
       place: 'Lund, sep 2024 – nu',
-      preview: 'Jag och min kursare Alinia Andersson tog ett stort kliv som uvecklare när vi startade ett eget företag för...',
-      full: `Jag och min kursare Alinia Andersson tog ett stort kliv som utvecklare när vi startade ett eget företag för vår apputveckling. 
+      preview: 'Jag och min kursare Alinia Andersson startade ett eget företag för vår apputveckling...',
+      full: `Jag och min kursare Alinia Andersson startade ett eget företag för vår apputveckling. 
       Företaget grundades i samband med att vi lanserade vår första app 'One More Date?' i oktober 2024, tillgänglig på både Google Play och App Store.
 Genom att driva hela processen från idé till färdig produkt har vi fått erfarenhet av produktutveckling, publicering av mobilapplikationer
 och plattformsspecifik kod för Android och iOS.

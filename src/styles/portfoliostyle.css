@@ -89,7 +89,18 @@ body {
     padding-bottom: 0.4rem;
 }
 
-/* Teknikstack */
+.portfolio-intro-text {
+  
+    text-align: left;
+    padding-top: 20px;
+
+}
+
+.portfolio-subtitle {
+    font-size: 1.5rem;
+    color: #2c2727;
+    font-weight: 400;
+}
 .portfolio-tech {
     font-weight: 600;
     font-style: italic;
@@ -153,11 +164,9 @@ body {
     font-size: 1rem;
     margin-bottom: 1rem;
     white-space: nowrap;
-
     width: 140px;
-    /* Mindre bredd */
     box-sizing: border-box;
-    /* Säkerställ att padding räknas in i bredd */
+
 }
 
 /* GitHub knapp bakgrund */
@@ -168,13 +177,20 @@ body {
     transition: background-color 0.3s ease;
 }
 
+.portfolio-link-group {
+    display: flex;
+    gap: 1rem;
+ 
+}
+
+
 .portfolio-link:hover {
     background-color: #005a99;
 }
 
 /* Privatknapp bakgrund och disabled */
 .portfolio-private {
-    background-color: #999;
+    background-color: #729bee;
     cursor: not-allowed;
     /* Visa att den är disabled */
     opacity: 0.7;
